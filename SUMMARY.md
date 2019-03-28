@@ -2,7 +2,8 @@
 
 * [Introduction](README.md)
 * [1.Basic](1.Basic/_node.md)
-  * [Npm](1.Basic/1.npm.md)
+  * [1.Npm](1.Basic/1.npm.md)
+  * [2.package.json说明](1.Basic/2.package.json.md)
   
 * [98.插件 Plugins](./98.Plugins)
   * [1.Commander.js Node.js命令行](./98.Plugins/1.Commander.js.md)
