@@ -15,7 +15,14 @@
    
 * [4.Util&]  
    * [4.1.Utils全局工具模块](4.Util&/1.Util.md)
-  
+ 
+* [5.fs 文件系统](./5.fs/_fs_file_system.md)
+   * [5.1 file文件读取写入](./5.fs/1.file-read-write.md)
+   * [5.2 使用 fs 打开、读取、关闭等处理文件](./5.fs/2.fs-open-read-close-unlink.md)
+   * [5.3 fs.stat读取文件状态](./5.fs/3.fs-stat.md)
+   * [5.4 fs处理目录](./5.fs/4.fs-directory.md)
+
+
   
 * [98.插件 Plugins](./98.Plugins)
   * [1.Commander.js Node.js命令行](./98.Plugins/1.Commander.js.md)
