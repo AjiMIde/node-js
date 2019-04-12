@@ -1,8 +1,25 @@
-## Node
+## Node.js
+
+#### 参考
+
+* [cnode.js 狼叔](https://cnodejs.org/topic/5ab3166be7b166bb7b9eccf7)
 
 #### 概念
-* Node.js 基于 Chrome JavaScript 运行时建立的一个平台
-* Node.js 事件驱动I/O服务端 JavaScript 环境，基于 Google V8引擎
+* 2009年，Ryan Dahl(RD)开发，2015 Node 基金会成立（Google, IBM, Microsoft, linux)；
+* Node.js 是基于 Google V8引擎 的 JavaScript 运行平台/环境；
+* Node.js 事件驱动I/O服务端，文件读写，数据库操作；
+* Node.js 微服务、Web服务器开发、前端工具构建；
+
+#### 应用场景及范围
+
+* 开发低延迟的网络应用(API，即时IM)
+
+#### 优缺
+
+* 生态良好，NPM 管理器拥有60万个模块(2018年)，32亿次/week downloads(2018年)
+* 采用事件驱动，适合IO密集的应用(非阻塞)；
+* 适合IO密集型，则适合数据密集型（内存小，响应力快）
+* 不适合CPU密集的任务；
 
 #### 安装
 * 使用安装包安装：http://www.runoob.com/nodejs/nodejs-install-setup.html
