@@ -2,11 +2,11 @@ const express = require('express')
 const fs= require('fs')
 const app = express()
 
-app.use(express.static('../express'))
+// app.use(express.static('./docs'))
+app.use(express.static('./test-1'))
 
 app.get('/', (req, res) => {
-  console.log(__dirname + '/' + 'index.html')
-  res.sendFile(__dirname + '/' + 'index.html')
+  res.sendFile(__dirname + '/test-1/' + 'index.html')
 })
 
 const server = app.listen('7890', () => {

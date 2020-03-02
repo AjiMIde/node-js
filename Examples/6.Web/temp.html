@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+  function tempTest1 () {    // temp表示可以随时删除
+    window.userCallback = function (r) { //
+      window.alert(r)
+      window.alert(JSON.parse(r))
+    }
+
+    var p = {
+      request_type: 'do_type_get_userToken',
+      request_callback_method: 'userCallback',
+      request_callback_have_param: true
+    }
+    window.alert(window.JsManager)
+    window.alert(window.JsManager.doSomethingByH5)
+    // window.alert(window.JsManager.iOSFYDH)
+    var stringP = JSON.stringify(p)
+
+    window.alert(stringP)
+
+    window.JsManager.doSomethingByH5(stringP)
+  }
+  tempTest1()
+</script>
+</html>
