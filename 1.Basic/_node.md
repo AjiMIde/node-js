@@ -3,6 +3,8 @@
 #### 参考
 
 * [cnode.js 狼叔](https://cnodejs.org/topic/5ab3166be7b166bb7b9eccf7)
+* [【知乎Live】狼叔：如何正确的学习Node.js](https://i5ting.github.io/How-to-learn-node-correctly/)
+* [node.js应用场景](https://www.cnblogs.com/gassnake999/p/7044583.html)
 
 #### 概念
 * 2009年，Ryan Dahl(RD)开发，2015 Node 基金会成立（Google, IBM, Microsoft, linux)；

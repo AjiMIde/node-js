@@ -29,6 +29,7 @@
     "connect": "^3.7.0",
     "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
+    "fs-extra": "^8.1.0",
     "moment": "^2.24.0",
     "multer": "^1.4.1",
     "socket-io": "^1.0.0",
