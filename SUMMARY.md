@@ -28,9 +28,3 @@
    * [7.2 express路由](./7.Express/2.Route.md)
    * [7.3 express处理静态文件](./7.Express/3.Static.md)
   
-* 98.插件 Plugins
-  * [Colors.js 命令行渲染颜色](98.Plugins/Colors.js.md)
-  * [Commander.js Node.js命令行](98.Plugins/Commander.js.md)
-  * [Debug 小型 js 输出调试信息工具](98.Plugins/Debug.md)
-  * [fs-extra 文件/文件夹操作库](98.Plugins/fs-extra.md)
-  * [node-notifier 桌面级通知](98.Plugins/node-notifier.md)
